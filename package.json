@@ -14,10 +14,10 @@
     "node": "17.x"
   },
   "dependencies": {
+    "dotenv": "^16.0.1",
     "node-fetch": "^2.6.7",
     "twitter": "^1.7.1"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/matteason/alt-alert-twitter-bot.git"
