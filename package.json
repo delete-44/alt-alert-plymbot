@@ -1,7 +1,7 @@
 {
   "name": "alt-alert-twitter-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Twitter bot engine which quote-tweets tweets without alt text.  Originally used for [@UKGovAltBot](https://twitter.com/UKGovAltBot), [@UKCouncilAltBot](https://twitter.com/UKCouncilAltBot) and [@USGovAltBot](https://twitter.com/USGovAltBot) ![Screenshot of a tweet from UK Gov Alt Bot, quote-tweeting Rishi Sunak. Tweet text: This tweet from Rishi Sunak contains an image without alt text. Alt text is important for blind, partially sighted and neurodivergent people who use screen readers. More info: link to Civil Service alt text guidance](https://user-images.githubusercontent.com/1935173/170481362-40b617a7-84af-45c0-bff3-0644d6da01cf.png)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,8 +10,20 @@
   "keywords": [],
   "author": "Matt Eason",
   "license": "MIT",
+  "engines": {
+    "node": "17.x"
+  },
   "dependencies": {
-    "node-fetch": "2.0",
+    "node-fetch": "^2.6.7",
     "twitter": "^1.7.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matteason/alt-alert-twitter-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matteason/alt-alert-twitter-bot/issues"
+  },
+  "homepage": "https://github.com/matteason/alt-alert-twitter-bot#readme"
 }
