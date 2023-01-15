@@ -6,7 +6,7 @@ Originally used for [@UKGovAltBot](https://twitter.com/UKGovAltBot), [@UKCouncil
 Blind, visually impaired and neurodivergent people often use screen reader software to help them use websites and apps. 
 Screen readers rely on alt text to describe images, but if people don't provide alt text those images aren't accessible to people using screen readers.
 
-This engine powers bots which finds images posted by users the bot is following. If they don't have alt text the bot quote-tweets them, pointing the tweet's author to guidance on how to use alt text.
+This engine powers bots which find images posted by users the bot is following. If they don't have alt text the bot quote-tweets them, pointing the tweet's author to guidance on how to use alt text.
 You can power multiple bots with a single instance of the engine.
 
 # Getting started
@@ -155,3 +155,9 @@ This project is licenced under the MIT License. An acknowledgement on your bot's
 If you'd like to, you can support me on Ko-Fi:
 
 <a href='https://ko-fi.com/R5R2CWXB1' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
+# Bots powered by this project
+As well as the bots I run - [@UKGovAltBot](https://twitter.com/UKGovAltBot), [@UKCouncilAltBot](https://twitter.com/UKCouncilAltBot) and [@USGovAltBot](https://twitter.com/USGovAltBot) - the following bots are also using this engine:
+- [@plymbot](https://twitter.com/plymbot)
+- [@AltTextWatch](https://twitter.com/AltTextWatch)
+- [@NHSchecker](https://twitter.com/NHSchecker)
